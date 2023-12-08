@@ -15,6 +15,7 @@ def pearson_correlation(array_1, array_2):
         raise ValueError("Массивы у нас должны быть одинаковой длины")
     n = len(array_1)
 
+
     # Расчет среднего значения
     mean_x = sum(array_1) / n
     mean_y = sum(array_2) / n
